@@ -7,7 +7,7 @@ namespace QuickerQuickMovement;
 
 internal static class SettingsModMenu
 {
-    private const string ROOT_KEY = "sircxyrtyx.combat-relief";
+    private const string ROOT_KEY = "sircxyrtyx.quickerquickmovement";
     private const string SPEED_MULT_KEY = $"{ROOT_KEY}.quickmove-speed-mult";
 
     public static float QuickMoveSpeedMult => ModMenu.ModMenu.GetSettingValue<float>(SPEED_MULT_KEY);
@@ -15,7 +15,7 @@ internal static class SettingsModMenu
     {
         ModMenu.ModMenu.AddSettings(
           SettingsBuilder
-            .New(GetKey("title"), CreateString("sircxyrtyx.quickquickMovement.title-name", "Quick Quick Movement"))
+            .New(GetKey("title"), CreateString(GetKey("title-name"), "Quicker Quick Movement"))
             .AddSliderFloat(
                 SliderFloat
                     .New(SPEED_MULT_KEY, 1.8f, CreateString("mm-quickmove-speedup", "Quick Movement Multiplier"), 1, 10)
