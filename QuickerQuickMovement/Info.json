@@ -1,0 +1,14 @@
+{
+  "AssemblyName": "QuickQuickMovement.dll",
+  "Author": "SirCxyrtyx",
+  "DisplayName": "Quick Quick Movement",
+  "EntryMethod": "QuickQuickMovement.Main.Load",
+  "GameVersion": "2.3.1",
+  "HomePage": "https://github.com/SirCxyrtyx/QuickQuickMovement",
+  "Id": "SirCxyrtyx.QuickQuickMovement",
+  "ManagerVersion": "0.27.11",
+  "Repository": "https://raw.githubusercontent.com/SirCxyrtyx/QuickQuickMovement/main/Repository.json",
+  "Requirements": [ "ModMenu-1.3.2" ],
+  "LoadAfter": [ "MewsiferConsole.Mod" ],
+  "Version": "1.0.0"
+}
